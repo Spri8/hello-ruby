@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  root to: 'pages#index'
+
+  #get 'hello',to: 'pages#contact' allows ...8080/contact.html to be used 
+  get 'pages/contact'
+
+  get 'pages/about'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
