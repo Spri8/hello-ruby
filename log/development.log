@@ -2681,3 +2681,54 @@ Started GET "/" for 127.0.0.1 at 2020-04-02 09:45:58 -0400
 Processing by PagesController#index as HTML
   Rendered pages/index.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 92ms (Views: 91.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-02 10:31:28 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 14827ms (Views: 14809.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e1e912e5b1e974839ff56806bb84821f579fcf9945ac99069558f33ffaac0930.css?body=1" for 127.0.0.1 at 2020-04-02 10:31:44 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-b2bd74404ab3c627c5129dcdd3bdc2fc0a9d4bff4e1b6f1bae96412f9a1e9723.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:44 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-7efa4aa654357ae664a98ec52151c25cd4927eacd1fabe038d068d9344b62cbd.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:44 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-4ca048907279f4bb9187ba2541ae5d03296917d5c42e8fef0b58ec31c8902f0f.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:44 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-e62629e47ba5fe8b7faaa745f2fef2ccdb1bfd56ffb4f95615684ef40c74bcc4.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:44 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-7c7aa23778284da0e4aa395a0a6d858c7efd891c9312fe71908b28292654ac0c.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:44 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-4db094cc14a1aafa93e51e6f298115323037bb9e24c060dd0de52f27446f6227.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:44 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-c2c0ad2347d3fdd8447abd9d5792efed40ad5afadc5e0de3001e34904a6f68ce.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:44 -0400
+
+
+Started GET "/assets/bootstrap/button.self-b7a8ce9f47662b97ab74ef3dd416e93d3a4f644b252307a28231976a0149feef.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:44 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7fbfa844201ceeb4b896e4d185a33df19a284fe461281b7c0f78dbea2ef6da5a.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:44 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-3c74f1999fcbf39cfb240b67c9a9e900863859f82f53fb27e5a388fe5e1a1c5c.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:44 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-a1e6d4555fb912f0405099135eaddbe8273ba8f08323477a471d34419d57b446.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:45 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:45 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:45 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-82858d5843f55bfed321ea59fc5b180f3d2a8afc498ebc4d665561110b807875.js?body=1" for 127.0.0.1 at 2020-04-02 10:31:45 -0400
