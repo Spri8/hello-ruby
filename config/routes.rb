@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root to: 'pages#index'
 
   #get 'hello',to: 'pages#contact' allows ...8080/contact.html to be used 

@@ -26,6 +26,7 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 #gem 'sassc-rails', '>= 2.1.2'
 gem 'font-awesome-sass', '~> 4.5.0'
 gem 'devise', '~> 3.5', '>= 3.5.6'
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
 gem 'bootstrap-sass-extras', '~> 0.0.2'
 
@@ -46,6 +47,12 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
+
+
+group :production do
+  gem 'rails_12factor', '~> 0.0.3'
+  gem 'pg', '~> 0.18.4'
+end
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
