@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 #gem 'sassc-rails', '>= 2.1.2'
 gem 'font-awesome-sass', '~> 4.5.0'
-gem 'devise', '~> 3.5', '>= 3.5.6'
+gem 'devise', '~> 4.7'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
 gem 'bootstrap-sass-extras', '~> 0.0.2'
