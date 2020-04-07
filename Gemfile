@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
-#gem 'sqlite3', '!=1.3.9'
+#gem 'sqlite3', '~> 1.3.9'
 #gem 'sqlite3', :require => false
 
 # Use SCSS for stylesheets
@@ -56,7 +56,6 @@ end
 
 
 group :production do
-
   gem 'rails_12factor', '~> 0.0.3'
   gem 'pg', '~> 0.18.4'
 end
