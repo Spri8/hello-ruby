@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
-#gem 'sqlite3', '~> 1.3.9'
+gem 'sqlite3', '~> 1.3.9'
+gem 'piwik_analytics', '~> 1.0.0'
 #gem 'sqlite3', :require => false
 
 # Use SCSS for stylesheets
