@@ -12,7 +12,7 @@
 production:
   piwik:
     id_site: 1
-    url: hellorubygeo.matomo.cloud
+    url: hellorubygeo.matomo.cloud/matomo.php
     use_async: false
     disabled: false
 
