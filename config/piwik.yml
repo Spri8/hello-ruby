@@ -12,14 +12,14 @@
 production:
   piwik:
     id_site: 1
-    url: hellorubygeo.matomo.cloud
+    url: hellorubygeo.matomo.cloud/matomo.php
     use_async: false
     disabled: false
 
 development:
   piwik:
     id_site: 1
-    url: localhost
+    url: hellorubygeo.matomo.cloud
     disabled: true
     use_async: false
     hostname: localhost
@@ -27,7 +27,7 @@ development:
 test:
   piwik:
     id_site: 1
-    url: localhost
+    url: hellorubygeo.matomo.cloud
     disabled: true
     use_async: false
     hostname: localhost
