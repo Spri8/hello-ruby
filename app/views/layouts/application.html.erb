@@ -5,8 +5,27 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+<!-- Matomo -->
+<!--<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setCookieDomain", "*.hellorubygeo.herokuapp.com"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://hellorubygeo.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.matomo.cloud/hellorubygeo.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>-->
+<!-- End Matomo Code -->
+
 </head>
 <body>
+
 
   <%= render 'layouts/nav'%>
   <%= bootstrap_flash %>
@@ -14,6 +33,7 @@
     <%= yield %>
   </div>
   <%= render 'layouts/footer'%>
-
+<%= javascript_include_tag "application" %>
+<%= piwik_tracking_tag %>
 </body>
 </html>
