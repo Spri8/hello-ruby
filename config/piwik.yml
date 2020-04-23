@@ -14,7 +14,7 @@
 production:
   piwik:
     id_site: 1
-    url: localhost
+    url: somehost
     use_async: false
     disabled: false
     trackingTimer: false

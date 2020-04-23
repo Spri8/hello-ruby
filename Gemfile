@@ -6,6 +6,7 @@ gem 'rails', '4.2.10'
 gem 'sqlite3', '~> 1.3.9'
 #gem 'sqlite3', :require => false
 gem 'piwik_analytics', '~> 1.0.6'
+#gem 'autometal-piwik', '1.0.4'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

@@ -5382,3 +5382,324 @@ Processing by PagesController#index as HTML
   Rendered layouts/_nav.html.erb (0.9ms)
   Rendered layouts/_footer.html.erb (0.5ms)
 Completed 200 OK in 837ms (Views: 817.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-20 08:02:32 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 2443ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `auth_token=' for Piwik:Module):
+     7:   <%= csrf_meta_tags %>
+     8:   <% require 'rubygems'
+     9:    require 'piwik' 
+    10:    Piwik.auth_token = "a6594330f5ac15d21b61d0c9b15b633b" 
+    11:    Piwik.piwik_url = "https://hellorubygeo.matomo.cloud/" %>
+    12: <!-- Matomo -->
+    13: <!--<script type="text/javascript">
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__1291627719838782811_29351560'
+
+
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (27.3ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (197.8ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (180.6ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (232.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-20 08:11:25 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 637ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `auth_token=' for Piwik:Module):
+     8:   <% 
+     9:   require 'rubygems'
+    10:   require 'piwik' 
+    11:   Piwik.auth_token = "a6594330f5ac15d21b61d0c9b15b633b" 
+    12:   Piwik.piwik_url = "https://hellorubygeo.matomo.cloud/" %>
+    13: <!-- Matomo -->
+    14: <!--<script type="text/javascript">
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1291627719838782811_69917578754400'
+
+
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.0ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.9ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (77.1ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (139.3ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (231.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-20 10:13:23 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 808ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `auth_token=' for Piwik:Module):
+     9:    
+    10:   require 'rubygems'
+    11:   require 'piwik' 
+    12:   Piwik.auth_token = "a6594330f5ac15d21b61d0c9b15b633b" 
+    13:   Piwik.piwik_url = "https://hellorubygeo.matomo.cloud/" %> -->
+    14: <!-- Matomo -->
+    15: <!--<script type="text/javascript">
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2905916477363054703_35788420'
+
+
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.6ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.9ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (122.7ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (124.7ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (181.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-20 10:14:17 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 500 Internal Server Error in 338ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `piwik_tracking_tag' for #<#<Class:0x0000000004298c00>:0x00007fe6f2226b50>):
+    34:   </div>
+    35:   <%= render 'layouts/footer'%>
+    36: <%= javascript_include_tag "application" %>
+    37: <!--<%= piwik_tracking_tag %>-->
+    38: </body>
+    39: </html>
+  app/views/layouts/application.html.erb:37:in `_app_views_layouts_application_html_erb___2905916477363054703_70314940755920'
+
+
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.2ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (89.5ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (74.5ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (185.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-20 10:14:36 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 500 Internal Server Error in 322ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `piwik_tracking_tag' for #<#<Class:0x0000000004298c00>:0x00007fe6f0fc2c70>):
+    37: 
+    38: </body>
+    39: </html>
+    40: <!--<%= piwik_tracking_tag %>-->
+  app/views/layouts/application.html.erb:40:in `_app_views_layouts_application_html_erb___2905916477363054703_70314931078980'
+
+
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.0ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.1ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (92.1ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/sprirwi/.rvm/gems/ruby-2.4.5/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (185.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-20 10:14:52 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 211ms (Views: 210.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-5965a03815771da264c72f2b9940934795802c7680e62eb92fe6707ae57b3f3a.js?body=1" for 127.0.0.1 at 2020-04-20 10:14:53 -0400
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2020-04-20 10:14:53 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-20 10:15:44 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 221ms (Views: 218.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-20 10:15:57 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 373ms (Views: 372.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-20 10:16:00 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 404ms (Views: 404.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-20 10:16:00 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 400ms (Views: 399.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-20 10:16:00 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 415ms (Views: 414.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-21 12:04:40 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 664ms (Views: 650.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-21 12:04:49 -0400
+Processing by PagesController#index as */*
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 230ms (Views: 230.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-23 08:47:08 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_nav.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 1128ms (Views: 1109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-23 08:55:03 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (116.2ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 326ms (Views: 224.7ms | ActiveRecord: 13.5ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-04-23 08:55:06 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6Hx+IXfW6Pwto70y+GjXurPY0W0jYAY+rGBN5kW0kfolDrizLTESfqnw2F5jsN5lNUQ74b1O2CtRkXssWG/bVw==", "user"=>{"email"=>"simeon_irwin@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (28.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "simeon_irwin@hotmail.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2020-04-06 14:43:53.086014"], ["current_sign_in_at", "2020-04-23 12:55:06.194517"], ["sign_in_count", 5], ["updated_at", "2020-04-23 12:55:06.195583"], ["id", 1]]
+  [1m[36m (16.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:8080/
+Completed 302 Found in 202ms (ActiveRecord: 45.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-23 08:55:06 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 108ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2020-04-23 08:55:08 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dckbqPfzxnOYbno4nbgWraHIKCQu1NbWMWSvkjyIzl2PGxtIglTESyAszMtsnKimaB9I1RHxup0YbWXOGHV0Jw=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://127.0.0.1:8080/
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-23 08:55:08 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 194ms (Views: 194.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-23 08:57:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 815ms (Views: 800.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-23 09:08:24 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 869ms (Views: 833.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-23 09:09:56 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 243ms (Views: 235.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-23 09:14:20 -0400
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 194ms (Views: 192.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-23 09:18:02 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 794ms (Views: 782.0ms | ActiveRecord: 0.0ms)
